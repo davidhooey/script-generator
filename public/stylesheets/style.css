@@ -1,0 +1,216 @@
+/*
+html { height: 100%; width: 100%; background-color: #cdefff }
+
+body {
+    width: 800px;
+    min-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    font: 13px Arial;
+    color: #222;
+    text-align: center;
+    background-color: #efefef;
+}
+
+h2 {
+    background-color: #ccc;
+    margin: 20px 200px 10px 200px;
+    padding: 5px;
+}
+
+*/
+
+html {
+    background: url("/images/bg-content.png") repeat scroll 0 0 #F6F6F1;
+}
+
+body {
+    color: #333333;
+    font: 14px/1.428 "Lucida Grande","Lucida Sans Unicode",Lucida,Arial,Helvetica,sans-serif;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+html, body, form, fieldset, legend, h1, h2, h3, h4, h5, h6, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+.section-docs #masthead {
+    border-bottom-color: #FB9500;
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #000000;
+    border-bottom: 4px solid #F8D575;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    color: #CCCCCC;
+    min-height: 66px;
+}
+
+header, hgroup, nav, section, article, aside, footer {
+    display: block;
+}
+
+.wrap:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#masthead .wrap {
+    background: none repeat scroll 0 0 #000000;
+    padding-top: 10px;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 740px;
+    padding: 0 10px;
+    position: relative;
+    width: 96%;
+}
+
+
+#nav-toolbar {
+    background: none repeat scroll 0 0 rgba(198, 198, 175, 0.35);
+    border-bottom: 1px solid #F8F8F6;
+    border-top: 1px solid #CBC8B9;
+    font-size: 0.785em;
+    padding: 0;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+#nav-toolbar .crumbs {
+    float: left;
+}
+
+#nav-toolbar .crumbs ol {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0.6em 0 0.7em;
+}
+
+#nav-toolbar .crumbs li.crumb-one {
+    background: none repeat scroll 0 0 transparent;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#nav-toolbar .crumbs li {
+    background: url("/images/nav-arrows.png") no-repeat scroll -15px -698px transparent;
+    display: inline;
+    margin-left: 6px;
+    padding-left: 13px;
+}
+
+#nav-toolbar a:link, #nav-toolbar a:visited {
+    color: #6D6D67;
+}
+
+#content {
+    min-height: 400px;
+}
+
+#content .wrap {
+    padding-bottom: 1em;
+    position: static;
+}
+
+#content-main {
+    clear: both;
+    float: none;
+    padding: 20px 0 0;
+    width: 100%;
+}
+
+page-title:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.page-title {
+    position: relative;
+}
+
+.boxed:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.boxed {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #ECECE7;
+    box-shadow: 2px 2px 0 rgba(170, 160, 130, 0.5), 4px 4px 0 rgba(200, 190, 165, 0.5);
+    margin: 0 4px 26px 0;
+    padding: 18px;
+}
+
+.page-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    min-height: 300px;
+}
+
+.pageText {
+    line-height: 1.572;
+}
+
+.pageText h1, .pageText h2, .pageText h3, .pageText h4, .pageText h5, .pageText h6 {
+    border-bottom: 1px solid #E0E0DC;
+    font-family: Georgia,Times,"Times New Roman",serif;
+}
+
+a {
+    color: #336699;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.428em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.8em;
+}
+
+html, body, form, fieldset, legend, h1, h2, h3, h4, h5, h6, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+.left-column {
+    float: left;
+    width: 50%;
+}
+
+.right-column {
+    float: left;
+    width: 50%;
+}
+.section-entry {
+    padding: 0.8em;
+    margin: 0.8em 0.8em 0 0.8em;
+    background-color: #E4EDF7;
+    text-align: left;
+}
+
+.section-header {
+    text-align: left;
+    border-bottom: 1px solid #D0D0CC;
+}
+
+.section-text {
+    padding-top: 0.8em;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 0.8em;
+}
