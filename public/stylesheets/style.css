@@ -44,7 +44,9 @@ html, body, form, fieldset, legend, h1, h2, h3, h4, h5, h6, dt, dd {
 #masthead {
     background: none repeat scroll 0 0 #000000;
     border-bottom: 4px solid #F8D575;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 0 0 0 rgba(0, 0, 0, 0.25) 0;
+    /* box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25); */
+    /* box-shadow: h-shadow v-shadow blur spread color inset; */
     color: #CCCCCC;
     min-height: 66px;
 }
