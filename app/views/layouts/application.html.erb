@@ -1,39 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Script Generator</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-
-<body id="docs" class="section-docs">
-  <header id="masthead" role="banner">
-    <div class="wrap">
-      <h1>Script Generator</h1>
-    </div>
-  </header>
-  <section id="nav-toolbar">
-    <div class="wrap">
-      <nav class="crumbs" role="navigation">
-        <ol>
-          <li class="crumb-one"><a href="/">Home</a></li>
-          <% if !@navigate_back.nil? %>
-            <li class="last"><a href=<%="/#{@navigate_back[:link]}"%>><%=@navigate_back[:name]%></a></li>
-          <% end %>
-        </ol>
-      </nav>
-    </div>
-  </section>
-  <section id="content">
-    <div class="wrap">
-      <div id="content-main" class="full">
-        <div id="pageText" class="pageText">
-          <%= yield %>
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Script Generator</title>
+    <%= stylesheet_link_tag :all %>
+    <%= javascript_include_tag :defaults %>
+    <%= csrf_meta_tag %>
+  </head>
+  
+  <body id="docs" class="section-docs">
+    <header id="masthead" role="banner">
+      <div class="wrap">
+        <h1>Script Generator</h1>
+      </div>
+    </header>
+    <section id="nav-toolbar">
+      <div class="wrap">
+        <nav class="crumbs" role="navigation">
+          <ol>
+            <li class="crumb-one"><a href="/">Home</a></li>
+            <% if !@navigate_back.nil? %>
+              <li class="last"><a href=<%="/#{@navigate_back[:link]}"%>><%=@navigate_back[:name]%></a></li>
+            <% end %>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <section id="content">
+      <div class="wrap">
+        <div id="content-main" class="full">
+          <div id="pageText" class="pageText">
+            <%= yield %>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-</body>
+    </section>
+  </body>
+  
 </html>
